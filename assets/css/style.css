@@ -169,8 +169,8 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 700;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -179,6 +179,7 @@ h6 {
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
+  font-weight: 700;
   line-height: 0;
   margin-left: 5px;
 }
@@ -188,6 +189,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #47b2e4;
+  font-weight: 700;
 }
 
 .navbar .getstarted,
@@ -196,9 +198,9 @@ h6 {
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
   border: 2px solid #47b2e4;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .navbar .getstarted:hover,
@@ -229,14 +231,14 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: none;
   font-weight: 500;
   color: #0c3c53;
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar .dropdown ul a:hover,
@@ -335,7 +337,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 16px;
   color: #37517e;
 }
 
@@ -372,7 +374,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -409,12 +411,12 @@ h6 {
 #truck h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #truck .btn-get-started {
   font-family: "Jost", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 28px;
   letter-spacing: 1px;
   display: inline-block;
@@ -482,12 +484,12 @@ h6 {
 
 @media (max-width: 768px) {
   #truck h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 34px;
   }
 
   #truck h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -504,6 +506,7 @@ h6 {
 
   #truck .btn-get-started {
     font-size: 28px;
+    font-weight: 700;
     padding: 10px 24px 11px 24px;
   }
 }
@@ -634,7 +637,7 @@ section {
   position: absolute;
   left: 0;
   top: 2px;
-  font-size: 20px;
+  font-size: 22px;
   color: #47b2e4;
   line-height: 1;
 }
@@ -646,7 +649,7 @@ section {
 .about .content .btn-learn-more {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -1456,7 +1459,7 @@ section {
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
   color: #6182ba;
 }
 
@@ -1469,7 +1472,7 @@ section {
 }
 
 .contact .info .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #333;
   color: #fff;
@@ -1666,7 +1669,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  font-size: 14px;
+  font-size: 20px;
   background: #37517e;
 }
 
@@ -1674,7 +1677,7 @@ section {
   padding: 50px 0;
   background: #f3f5fa;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   color: #444444;
 }
 
@@ -1710,7 +1713,8 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   padding: 0 20px;
   background: #47b2e4;
   color: #fff;
@@ -1743,7 +1747,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
@@ -1751,7 +1755,7 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #37517e;
   position: relative;
@@ -1771,7 +1775,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #47b2e4;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
 }
 
@@ -1798,7 +1802,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #47b2e4;
   color: #fff;
@@ -1830,7 +1834,7 @@ section {
 
 #footer .credits {
   float: right;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 #footer .credits a {
