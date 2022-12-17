@@ -17,6 +17,9 @@ a:hover {
   color: #73c5eb;
   text-decoration: none;
 }
+.phone-call {
+  display: none;
+}
 
 h1,
 h2,
@@ -116,6 +119,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: rgba(40, 58, 90, 0.9);
 }
 
 #header.header-scrolled,
@@ -274,6 +278,9 @@ h6 {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+  .phone-call {
+    display: none;
+  }
 }
 
 /**
@@ -299,6 +306,12 @@ h6 {
 
   .navbar ul {
     display: none;
+  }
+  .phone-call {
+    display: initial;
+    color: #0dcaf0;
+    margin-right: 1em;
+    align-content: center;
   }
 }
 
